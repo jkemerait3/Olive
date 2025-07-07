@@ -1,0 +1,20 @@
+{
+  "title": "DAST-10",
+  "instructions": "Answer Yes or No to each of the following questions regarding drug use.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Have you used drugs other than those required for medical reasons?",
+      "options": [
+        {
+          "label": "Yes",
+          "value": 1
+        },
+        {
+          "label": "No",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

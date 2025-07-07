@@ -1,0 +1,28 @@
+{
+  "title": "AQ-10",
+  "instructions": "Please answer each question as it best applies to you.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "I often notice small sounds when others do not.",
+      "options": [
+        {
+          "label": "Definitely Agree",
+          "value": 1
+        },
+        {
+          "label": "Slightly Agree",
+          "value": 1
+        },
+        {
+          "label": "Slightly Disagree",
+          "value": 0
+        },
+        {
+          "label": "Definitely Disagree",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

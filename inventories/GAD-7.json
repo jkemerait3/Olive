@@ -1,0 +1,28 @@
+{
+  "title": "GAD-7",
+  "instructions": "Over the last 2 weeks, how often have you been bothered by the following problems?",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Feeling nervous, anxious, or on edge",
+      "options": [
+        {
+          "label": "Not at all",
+          "value": 0
+        },
+        {
+          "label": "Several days",
+          "value": 1
+        },
+        {
+          "label": "More than half the days",
+          "value": 2
+        },
+        {
+          "label": "Nearly every day",
+          "value": 3
+        }
+      ]
+    }
+  ]
+}

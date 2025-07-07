@@ -1,4 +1,4 @@
-from interface.cli import run_cli_chatbot
+from interface.cli import run_cli
 
 if __name__ == "__main__":
-    run_cli_chatbot()
+    run_cli()

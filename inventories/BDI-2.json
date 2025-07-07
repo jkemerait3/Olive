@@ -1,0 +1,28 @@
+{
+  "title": "BDI-II",
+  "instructions": "Choose one statement in each group that best describes the way you have been feeling the past two weeks.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Sadness",
+      "options": [
+        {
+          "label": "I do not feel sad",
+          "value": 0
+        },
+        {
+          "label": "I feel sad",
+          "value": 1
+        },
+        {
+          "label": "I am sad all the time and I can't snap out of it",
+          "value": 2
+        },
+        {
+          "label": "I am so sad or unhappy that I can't stand it",
+          "value": 3
+        }
+      ]
+    }
+  ]
+}

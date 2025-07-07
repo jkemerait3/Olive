@@ -1,0 +1,32 @@
+{
+  "title": "DES-II",
+  "instructions": "Please circle the number to show what percentage of the time this happens to you.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Some people have the experience of driving or riding in a car or bus and suddenly realizing that they don\u2019t remember what has happened during all or part of the trip.",
+      "options": [
+        {
+          "label": "0%",
+          "value": 0
+        },
+        {
+          "label": "25%",
+          "value": 1
+        },
+        {
+          "label": "50%",
+          "value": 2
+        },
+        {
+          "label": "75%",
+          "value": 3
+        },
+        {
+          "label": "100%",
+          "value": 4
+        }
+      ]
+    }
+  ]
+}

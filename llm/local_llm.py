@@ -1,6 +1,6 @@
 import subprocess
 
-def query_phi_model(prompt: str) -> str:
+def query_llm(prompt: str) -> str:
     """
     Runs the Phi model via Ollama and returns its response.
     Assumes 'phi' model has been pulled with `ollama pull phi`.

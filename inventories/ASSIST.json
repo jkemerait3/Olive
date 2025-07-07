@@ -1,0 +1,20 @@
+{
+  "title": "ASSIST",
+  "instructions": "Answer the following questions about your use of substances.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "In your lifetime, which of the following substances have you ever used?",
+      "options": [
+        {
+          "label": "Yes",
+          "value": 1
+        },
+        {
+          "label": "No",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "title": "BAI",
+  "instructions": "Please read each item and indicate how much you have been bothered by that symptom during the past week.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Numbness or tingling",
+      "options": [
+        {
+          "label": "Not at all",
+          "value": 0
+        },
+        {
+          "label": "Mildly",
+          "value": 1
+        },
+        {
+          "label": "Moderately",
+          "value": 2
+        },
+        {
+          "label": "Severely",
+          "value": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title": "AUDIT",
+  "instructions": "Please answer the following questions about your alcohol use.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "How often do you have a drink containing alcohol?",
+      "options": [
+        {
+          "label": "Never",
+          "value": 0
+        },
+        {
+          "label": "Monthly or less",
+          "value": 1
+        },
+        {
+          "label": "2\u20134 times a month",
+          "value": 2
+        },
+        {
+          "label": "2\u20133 times a week",
+          "value": 3
+        },
+        {
+          "label": "4 or more times a week",
+          "value": 4
+        }
+      ]
+    }
+  ]
+}

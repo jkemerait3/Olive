@@ -1,5 +1,6 @@
 {
   "title": "QIDS-SR-16",
+  "instructions": "Check the 1 response to each item that best describes you for the past 7 days.",
   "questions": [
     {
       "id": 1,

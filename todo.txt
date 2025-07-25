@@ -1,4 +1,0 @@
-to do:
-- write reproducibility instructions in readme
-- complete + submit weekly report
-- 

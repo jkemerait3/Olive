@@ -1,6 +1,7 @@
 import json
 import datetime
 from pathlib import Path
+from llm.local_llm import MODEL_NAME
 
 def load_inventory(filepath):
     """Load inventory JSON from file path."""
@@ -47,7 +48,7 @@ def generate_output_filename(first_name, last_name, date_str):
     except Exception:
         date_fmt = "UNKNOWN_DATE"
 
-    return f"output/{initials}_{date_fmt}.csv"
+    return f"output/{initials}_{date_fmt}" +"_" + MODEL_NAME + ".csv"
 
 # Ensure output directory exists
 Path("output").mkdir(parents=True, exist_ok=True)

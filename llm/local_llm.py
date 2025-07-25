@@ -1,17 +1,16 @@
 import subprocess
 
+OLLAMA_PATH = r"C:\Users\jammy\AppData\Local\Programs\Ollama\ollama.exe"
+MODEL_NAME = 'mistral'
+
 def query_llm(prompt: str) -> str:
-    """
-    Runs the Phi model via Ollama and returns its response.
-    Assumes 'phi' model has been pulled with `ollama pull phi`.
-    """
     try:
         result = subprocess.run(
-            ['ollama', 'run', 'phi'],
+            [OLLAMA_PATH, 'run', MODEL_NAME],
             input=prompt.encode('utf-8'),
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
-            timeout=60
+            timeout=10000
         )
         output = result.stdout.decode('utf-8')
         return output.strip()

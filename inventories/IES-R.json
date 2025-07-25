@@ -1,5 +1,6 @@
 {
   "title": "IES-R",
+  "instructions": "Below is a list of difficulties people sometimes have after stressful life events. Please read each item, and then indicate how distressing each difficulty has been for you DURING THE PAST SEVEN DAYS. How much have you been distressed or bothered by these difficulties?",
   "questions": [
     {
       "id": 1,
